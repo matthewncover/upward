@@ -1,0 +1,78 @@
+{
+  "habits": [
+    {
+      "name": "Reading",
+      "habit_type": "pages",
+      "weight": 1.0,
+      "target_days_per_week": 2,
+      "nonzero_threshold": 1,
+      "goal_threshold": 10,
+      "stretch_threshold": 25,
+      "compound_rate": 1.15,
+      "decay_rate": 0.9,
+      "forgiveness_days": 2
+    },
+    {
+      "name": "Breathwork",
+      "habit_type": "duration",
+      "weight": 1.15,
+      "target_days_per_week": 5,
+      "nonzero_threshold": 1,
+      "goal_threshold": 10,
+      "stretch_threshold": 20,
+      "compound_rate": 1.15,
+      "decay_rate": 0.9,
+      "forgiveness_days": 2
+    },
+    {
+      "name": "Activity",
+      "habit_type": "binary",
+      "weight": 1.0,
+      "target_days_per_week": 4,
+      "nonzero_threshold": 1,
+      "goal_threshold": 1,
+      "stretch_threshold": 1,
+      "compound_rate": 1.15,
+      "decay_rate": 0.9,
+      "forgiveness_days": 1
+    },
+    {
+      "name": "Screen Time (Post 9PM)",
+      "habit_type": "duration",
+      "weight": 1.5,
+      "target_days_per_week": 6,
+      "nonzero_threshold": 120,
+      "goal_threshold": 60,
+      "stretch_threshold": 20,
+      "zero_threshold": 180,
+      "compound_rate": 1.15,
+      "decay_rate": 0.9,
+      "forgiveness_days": 2,
+      "is_inverted": true
+    },
+    {
+      "name": "Guitar Practice",
+      "habit_type": "duration",
+      "weight": 1.0,
+      "target_days_per_week": 3,
+      "nonzero_threshold": 1,
+      "goal_threshold": 20,
+      "stretch_threshold": 60,
+      "compound_rate": 1.15,
+      "decay_rate": 0.9,
+      "forgiveness_days": 2
+    },
+    {
+      "name": "Pullups",
+      "habit_type": "reps",
+      "weight": 1.1,
+      "target_days_per_week": 3,
+      "nonzero_threshold": 1,
+      "goal_threshold": 15,
+      "stretch_threshold": 30,
+      "compound_rate": 1.15,
+      "decay_rate": 0.9,
+      "forgiveness_days": 2
+    }
+  ]
+}

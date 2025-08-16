@@ -1,6 +1,25 @@
 CLAUDE.md
 *sandbox*
 data/
+*directive.md
+*openapi*
+
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Frontend build outputs
+backend/static/
+frontend/dist/
+frontend/build/
+
+# Environment files
+.env.local
+.env.production
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
