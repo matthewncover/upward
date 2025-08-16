@@ -1,8 +1,9 @@
-CLAUDE.md
+*claude*
 *sandbox*
 data/
 *directive.md
 *openapi*
+*.db
 
 
 # Node.js
